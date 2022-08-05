@@ -34,6 +34,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Нажатие">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="g3Y-4N-uFc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="VSF-TW-Wqt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hUm-FU-joH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HelloWorldLabel" destination="Uf1-xX-oYl" id="aTY-yY-GvM"/>
+                        <outlet property="botton" destination="VSF-TW-Wqt" id="qAB-o9-sS5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
